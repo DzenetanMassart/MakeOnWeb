@@ -54,13 +54,25 @@ let softs=[
     "img_link": "https://www.ispeech.org/img/logos/ispeech.png",
     "desc": "Un text-to-speech assez complet et facile à utiliser avec Audacity.",
     "link": "https://www.ispeech.org/text.to.speech"
+}, 
+{
+    "type":"Audio",
+    "img_link": "http://www.oddcast.com/ttsdemo/assets/images/oaddcast-logo.png",
+    "desc": "Un text-to-speech avec un visuel en fonction du sexe lié à la voix.",
+    "link": "http://ttsdemo.com/"
 },   
 {
     "type":"Audio",
-    "img_link": "https://soundation.com/assets/soundation-icon-light.svg?v=2",
-    "desc": "Logiciel partiellement gratuit pour faire de la musique.",
-    "link": "https://soundation.com/"
+    "img_link": "http://dashboard.music.freemac.org/wp-content/uploads/2015/01/AudioSauna-276-1.png",
+    "desc": "Faîtes de la musique en ligne gratuitement de manière assez complete.",
+    "link": "http://www.audiosauna.com/studio/"
 }, 
+{
+    "type":"Audio",
+    "img_link": "https://songbpm.com/songbpm/img/0eaf143.png",
+    "desc": "Retrouver le BPM (Battement par Minute) d'une musique/chanson.",
+    "link": "https://songbpm.com/"
+},
 // Les logiciel de 3D
 {
     "type":"tD",

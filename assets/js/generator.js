@@ -53,7 +53,7 @@ function all(){
 
 function generator(nom) {
 
-    document.title = "MoW" + nom;
+    document.title = "MoW: " + nom;
     gen = " ";
 
     for (let ii = 0; ii < softs.length; ii++) {
