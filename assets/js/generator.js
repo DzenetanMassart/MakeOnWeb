@@ -34,7 +34,9 @@ document.getElementById("Code").addEventListener("click", function() { generator
 
 // Les fonctions des boutons
 function all(){
-    gen='';
+    document.title = "Make on Websoft";
+
+    gen=' ';
     for (let ii = 0; ii < softs.length; ii++) {
 
         let softwares = (softs[ii]);
