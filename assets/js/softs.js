@@ -33,6 +33,12 @@ let softs=[
     "desc": "Pour redimensionner plusieurs images à la fois.",
     "link": "https://www.iloveimg.com/fr/redimensionner-image"
 }, 
+    {
+    "type":"Image",
+    "img_link": "http://assets.stickpng.com/thumbs/5842a622a6515b1e0ad75af9.png",
+    "desc": "Pour créer des logos,posters,cartes de visite,CV,... à partir de modèle.",
+    "link": "https://www.canva.com/fr_fr/"
+},
 
 // Les logiciels de vidéo
 {
