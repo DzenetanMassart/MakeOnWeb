@@ -18,16 +18,19 @@ $C1:black;
             margin: 0;
             overflow-y: hidden;
         }
-
+.introduce{display:block !important}
 
         section {
             overflow-y: scroll;
             scroll-snap-type: y mandatory;
             width: 86%;
             margin: auto auto;
-            height: 95vh;
-            padding: 50px;
-            margin-bottom: 25px;
+            height: 85vh;
+            margin-left: 5%;
+            padding:20px;
+            position: absolute;
+            top:100px;
+            margin-bottom: 20px;
             background-color: rgba(230, 230, 230, 0.23);
 
             &::-webkit-scrollbar {
@@ -62,11 +65,12 @@ $C1:black;
                     border: 1px solid $C1;
                     padding: 5px;
                     margin-bottom: 10px;
-                    width: 480px;
+                    width: 500px;
                     height: 300px;
                     margin: 10px;
                     transform: scale(1.0);
                     transition: all 0.9s;
+                    background-color:white;
 
                     .card-img-top {
                         filter:drop-shadow(0 0 1px $C1);
@@ -95,11 +99,18 @@ $C1:black;
 
                 &:hover {
                     transform: scale(0.99);
+                    background-color:rgb(214, 214, 214);
+
                 }
             }
         }
 
     }
+
+    @media screen and (max-width: 991px){
+        .introduce{display:none !important}}
+
+    
 
     // Version en portrait
     @media (orientation: portrait) {
