@@ -1,217 +1,170 @@
 $C1:black;
-    $C2:rgb(255, 255, 255);
-    $C3:rgba(0, 162, 216, 1);
+$C2:rgb(255, 255, 255);
+$C3:rgba(0, 162, 216, 1);
+@mixin F1() {
+    color: $C1;
+    font-family: 'Kalam', cursive;
+    text-shadow: $C2 1px 1px, $C2 -1px 1px, $C2 -1px -1px, $C2 1px -1px;
+    font-weight: bold;
+}
 
-    @mixin F1() {
-        color: $C1;
-        font-family: 'Kalam', cursive;
-        text-shadow: $C2 1px 1px, $C2 -1px 1px, $C2 -1px -1px, $C2 1px -1px;
-        font-weight: bold;
+@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
+// Version en paysage
+@media (orientation:landscape) {
+    body {
+        margin: 0;
+        overflow-y: hidden;
     }
-
-    @import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
-
-    // Version en paysage
-    @media (orientation:landscape) {
-
-        body {
-            margin: 0;
-            overflow-y: hidden;
-        }
-.introduce{display:block !important}
-
-        section {
-            overflow-y: scroll;
-            scroll-snap-type: y mandatory;
-            width: 86%;
-            margin: auto auto;
-            height: 85vh;
-            margin-left: 5%;
-            padding:20px;
-            position: absolute;
-            top:100px;
-            margin-bottom: 20px;
-            background-color: rgba(230, 230, 230, 0.23);
-
-            &::-webkit-scrollbar {
-                width: 5px;
-            }
-
-            &::-webkit-scrollbar-track {
-                border: 1px solid $C3;
-                border-radius: 10px;
-            }
-
-            &::-webkit-scrollbar-track-piece {
-                background-color: $C2;
-                border-radius: 10px;
-            }
-
-            &::-webkit-scrollbar-thumb {
-                background-color: rgba(0, 162, 216, 0.548);
-                border-radius: 10px;
-
-                &:hover {
-                    background-color: $C3;
-                }
-            }
-
-            .row {
-                margin-right: 0 !important;
-            }
-
-            a {
-                .card {
-                    border: 1px solid $C1;
-                    padding: 5px;
-                    margin-bottom: 10px;
-                    width: 500px;
-                    height: 300px;
-                    margin: 10px;
-                    transform: scale(1.0);
-                    transition: all 0.9s;
-                    background-color:white;
-
-                    .card-img-top {
-                        filter:drop-shadow(0 0 1px $C1);
-                         position: absolute;
-                        width:50%;
-                        margin: auto auto;
-                        
-                    }
-                    .card-body {
-                        height: 100px;
-
-                        .card-text {
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            bottom: 0;
-                            left: 0;
-                            text-align: center;
-                            position: absolute;
-                            z-index: 2;
-                            color:$C1;
-
-                        }
-                    }
-                }
-
-                &:hover {
-                    transform: scale(0.99);
-                    background-color:rgb(214, 214, 214);
-
-                }
-            }
-        }
-
+    .introduce {
+        display: block !important
     }
-
-    @media screen and (max-width: 991px){
-        .introduce{display:none !important}}
-
-    
-
-    // Version en portrait
-    @media (orientation: portrait) {
-        body {
-            margin: 0;
-            overflow-y: hidden;
+    section {
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+        width: 86%;
+        margin: auto auto;
+        height: 85vh;
+        margin-left: 5%;
+        padding: 20px;
+        position: absolute;
+        top: 100px;
+        margin-bottom: 20px;
+        background-color: rgba(230, 230, 230, 0.23);
+        &::-webkit-scrollbar {
+            width: 5px;
         }
-
-        section {
-            overflow-y: scroll;
-            scroll-snap-type: y mandatory;
-            width: 86%;
-            margin: auto auto;
-            height: 88vh;
-            padding: 50px;
-            margin-bottom: 25px;
-            background-color: rgba(230, 230, 230, 0.23);
-
-            &::-webkit-scrollbar {
-                width: 5px;
+        &::-webkit-scrollbar-track {
+            border: 1px solid $C3;
+            border-radius: 10px;
+        }
+        &::-webkit-scrollbar-track-piece {
+            background-color: $C2;
+            border-radius: 10px;
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: rgba(0, 162, 216, 0.548);
+            border-radius: 10px;
+            &:hover {
+                background-color: $C3;
             }
-
-            &::-webkit-scrollbar-track {
-                border: 1px solid $C3;
-                border-radius: 10px;
-            }
-
-            &::-webkit-scrollbar-track-piece {
-                background-color: $C2;
-                border-radius: 10px;
-            }
-
-            &::-webkit-scrollbar-thumb {
-                background-color: rgba(0, 162, 216, 0.548);
-                border-radius: 10px;
-
-                &:hover {
-                    background-color: $C3;
+        }
+        .row {
+            margin-right: 0 !important;
+        }
+        a {
+            .card {
+                border: 1px solid $C1;
+                padding: 5px;
+                margin-bottom: 10px;
+                width: 18rem;
+                height: 300px;
+                margin: 10px;
+                transform: scale(1.0);
+                transition: all 0.9s;
+                background-color: white;
+                .card-img-top {
+                    filter: drop-shadow(0 0 1px $C1);
+                    position: absolute;
+                    width: 50%;
+                    margin: auto auto;
                 }
-            }
-
-            .row {
-                margin-right: 0 !important;
-            }
-
-            a {
-                .card {
-                    border: 1px solid $C1;
-                    padding: 5px;
-                    margin-bottom: 10px;
-                    width: 60vw;
-                    height: 15vh;
-                    margin: 10px;
-                    transform: scale(1.0);
-                    transition: all 0.9s;
-
-
-
-                    .card-img-top {
-                        filter:drop-shadow(0 0 1px $C1);
-                        z-index: 0;
+                .card-body {
+                    height: 100px;
+                    .card-text {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        bottom: 0;
+                        left: 0;
+                        text-align: center;
                         position: absolute;
-                        height:25%;
-                        width:25%;
-                        right: 5px;
-                        margin: auto auto;
-                    }
-
-                    .card-body {
-                        height: 100px;
-
-                        .card-text {
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            top: 0;
-                            left: 0;
-                            text-align: center;
-                            height: 20vh;
-                            position: absolute;
-                            z-index: 2;
-                            text-shadow: $C2 1px 1px, $C2 -1px 1px, $C2 -1px -1px, $C2 1px -1px;
-                        }
+                        z-index: 2;
+                        color: $C1;
                     }
                 }
+            }
+            &:hover {
+                transform: scale(0.99);
+                background-color: rgb(214, 214, 214);
+            }
+        }
+    }
+}
 
-                &:hover {
-                    transform: scale(0.99);
+@media screen and (max-width: 991px) {
+    .introduce {
+        display: none !important
+    }
+}
+
+// Version en portrait
+@media (orientation: portrait) {
+    .introduce {
+        display: none !important
+    }
+    section {
+        margin-top: 50px;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+        width: 100%;
+        height: 100vh;
+        padding: 20px;
+        background-color: rgba(230, 230, 230, 0.23);
+        &::-webkit-scrollbar {
+            width: 5px;
+        }
+        &::-webkit-scrollbar-track {
+            border: 1px solid $C3;
+            border-radius: 10px;
+        }
+        &::-webkit-scrollbar-track-piece {
+            background-color: $C2;
+            border-radius: 10px;
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: rgba(0, 162, 216, 0.548);
+            border-radius: 10px;
+            &:hover {
+                background-color: $C3;
+            }
+        }
+    }
+    .row {
+        margin-right: 0 !important;
+    }
+    a {
+        transform: scale(1);
+        transition: all 0.15s;
+        &:hover {
+            text-decoration: none;
+            transform: scale(0.95);
+        }
+        .card {
+            border: 1px solid $C1;
+            padding: 5px;
+            margin-bottom: 10px;
+            width: 95vw;
+            transform: scale(1.0);
+            transition: all 0.9s;
+            background-color: white;
+            .card-img-top {
+                filter: drop-shadow(0 0 1px $C1);
+                position: absolute;
+                width: 7.5vh;
+                bottom: 0;
+                left: 0;
+            }
+            .card-body {
+                height: 100px;
+                .card-text {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: right;
+                    text-align: right;
+                    z-index: 2;
+                    color: $C1;
                 }
             }
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-    
+}

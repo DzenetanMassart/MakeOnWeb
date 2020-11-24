@@ -1,4 +1,4 @@
-let gen=" ";
+let gen = " ";
 /*
 |===================|
 |L'affichage de base|
@@ -7,14 +7,14 @@ let gen=" ";
 for (let ii = 0; ii < softs.length; ii++) {
 
     let softwares = (softs[ii]);
-gen+='<a href="'+softwares.link+'"><div class="card" style="width: 18rem;">';
-gen+='<img src="'+softwares.img_link +'" class="card-img-top"';
-gen+=' alt="'+softwares.desc+'">';
-gen+='<div class="card-body">';
-gen+='<p class="card-text">'+softwares.desc+'</p>';
-gen+='</div></div></a>';
+    gen += '<a href="' + softwares.link + '"><div class="card">';
+    gen += '<img src="' + softwares.img_link + '" class="card-img-top"';
+    gen += ' alt="' + softwares.desc + '">';
+    gen += '<div class="card-body">';
+    gen += '<p class="card-text">' + softwares.desc + '</p>';
+    gen += '</div></div></a>';
 
-document.getElementById("gen").innerHTML = gen;
+    document.getElementById("gen").innerHTML = gen;
 
 }
 /*
@@ -33,22 +33,22 @@ document.getElementById("tD").addEventListener("click", function() { generator("
 document.getElementById("Code").addEventListener("click", function() { generator("Code"); });
 
 // Les fonctions des boutons
-function all(){
+function all() {
     document.title = "Make on Websoft";
 
-    gen=' ';
+    gen = ' ';
     for (let ii = 0; ii < softs.length; ii++) {
 
         let softwares = (softs[ii]);
-    gen+='<a href="'+softwares.link+'"><div class="card" style="width: 18rem;">';
-    gen+='<img src="'+softwares.img_link +'" class="card-img-top"';
-    gen+=' alt="'+softwares.desc+'">';
-    gen+='<div class="card-body">';
-    gen+='<p class="card-text">'+softwares.desc+'</p>';
-    gen+='</div></div></a>';
-    
-    document.getElementById("gen").innerHTML = gen;
-    
+        gen += '<a href="' + softwares.link + '"><div class="card" style="width: 18rem;">';
+        gen += '<img src="' + softwares.img_link + '" class="card-img-top"';
+        gen += ' alt="' + softwares.desc + '">';
+        gen += '<div class="card-body">';
+        gen += '<p class="card-text">' + softwares.desc + '</p>';
+        gen += '</div></div></a>';
+
+        document.getElementById("gen").innerHTML = gen;
+
     }
 }
 
@@ -61,13 +61,14 @@ function generator(nom) {
     for (let ii = 0; ii < softs.length; ii++) {
 
         let softwares = (softs[ii]);
-        if(softwares.type==nom){
-    gen+='<a href="'+softwares.link+'"><div class="card" style="width: 18rem;">';
-    gen+='<img src="'+softwares.img_link +'" class="card-img-top"';
-    gen+=' alt="'+softwares.desc+'">';
-    gen+='<div class="card-body">';
-    gen+='<p class="card-text">'+softwares.desc+'</p>';
-    gen+='</div></div></a>';
-        }}
-    document.getElementById("gen").innerHTML = gen;
+        if (softwares.type == nom) {
+            gen += '<a href="' + softwares.link + '"><div class="card" style="width: 18rem;">';
+            gen += '<img src="' + softwares.img_link + '" class="card-img-top"';
+            gen += ' alt="' + softwares.desc + '">';
+            gen += '<div class="card-body">';
+            gen += '<p class="card-text">' + softwares.desc + '</p>';
+            gen += '</div></div></a>';
+        }
     }
+    document.getElementById("gen").innerHTML = gen;
+}

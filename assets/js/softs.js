@@ -23,7 +23,7 @@ let softs = [
     },
     {
         "type": "Image",
-        "img_link": "https://compressor.io/img/compressor.png",
+        "img_link": "https://compressor.io/logo-compressor.svg",
         "desc": "Pour compresser sans pertes de qualité les images.",
         "link": "https://compressor.io/"
     },
