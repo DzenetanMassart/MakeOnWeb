@@ -97,6 +97,12 @@ let softs = [
         "desc": "Retrouver le BPM (Battement par Minute) d'une musique/chanson.",
         "link": "https://songbpm.com/"
     },
+    {
+        "type": "Audio",
+        "img_link": "https://www.remove-vocals.com/static/vocal_remover.png",
+        "desc": "Enlever les paroles de n'importe quel chanson. ",
+        "link": "https://www.remove-vocals.com/"
+    },
     // Les logiciel de 3D
     {
         "type": "tD",
