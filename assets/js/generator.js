@@ -7,7 +7,7 @@ let gen = " ";
 for (let ii = 0; ii < softs.length; ii++) {
 
     let softwares = (softs[ii]);
-    gen += '<a href="' + softwares.link + '"><div class="card">';
+    gen += '<a class="softos" href="' + softwares.link + '"><div class="card">';
     gen += '<img src="' + softwares.img_link + '" class="card-img-top"';
     gen += ' alt="' + softwares.desc + '">';
     gen += '<div class="card-body">';
@@ -40,7 +40,7 @@ function all() {
     for (let ii = 0; ii < softs.length; ii++) {
 
         let softwares = (softs[ii]);
-        gen += '<a href="' + softwares.link + '"><div class="card" style="width: 18rem;">';
+        gen += '<a class="softos" href="' + softwares.link + '"><div class="card">';
         gen += '<img src="' + softwares.img_link + '" class="card-img-top"';
         gen += ' alt="' + softwares.desc + '">';
         gen += '<div class="card-body">';
@@ -55,14 +55,18 @@ function all() {
 
 function generator(nom) {
 
-    document.title = "MoW: " + nom;
+    if (nom === "tD") {
+        document.title = "MoW: 3D ";
+    } else {
+        document.title = "MoW: " + nom;
+    }
     gen = " ";
 
     for (let ii = 0; ii < softs.length; ii++) {
 
         let softwares = (softs[ii]);
         if (softwares.type == nom) {
-            gen += '<a href="' + softwares.link + '"><div class="card" style="width: 18rem;">';
+            gen += '<a class="softos" href="' + softwares.link + '"><div class="card">';
             gen += '<img src="' + softwares.img_link + '" class="card-img-top"';
             gen += ' alt="' + softwares.desc + '">';
             gen += '<div class="card-body">';
