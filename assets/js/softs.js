@@ -67,10 +67,17 @@ let softs = [
     },
     {
         "type": "Video",
+        "img_link": "https://www.y2mate.com/themes/images/logo.png",
+        "desc": "Téléchargez de la vidéo et de l'audio depuis YouTube",
+        "link": "https://www.y2mate.com/fr8"
+    },
+    {
+        "type": "Video",
         "img_link": "https://cdn.notube.net/images/general/logo.webp",
         "desc": "Pour télécharger des vidéos provenant de YouTube en .mp3 ou .mp4.",
         "link": "https://notube.net/fr/easy-converter-video"
     },
+
 
     // Les logiciels pour l'audio
     {
@@ -97,6 +104,7 @@ let softs = [
         "desc": "Enlever les paroles de n'importe quel chanson. ",
         "link": "https://www.remove-vocals.com/"
     },
+
     // Les logiciel de 3D
     {
         "type": "tD",
@@ -148,6 +156,13 @@ let softs = [
         "desc": "Éditeur HTML simple.",
         "link": "https://js.do/"
     },
+    {
+        "type": "Code",
+        "img_link": "https://pbs.twimg.com/profile_images/455676678652452864/JYOZ85z-_400x400.png",
+        "desc": "Générateur graphique de palette de couleur avec exportation HTML ,CSS , LESS , SASS , XML et text.",
+        "link": "https://paletton.com/#uid=15a0u0kMzLdWw3KUk9haaU48lXd"
+    },
+
     {
         "type": "Code",
         "img_link": "assets/img/CSS animate.png",
