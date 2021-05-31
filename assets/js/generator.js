@@ -31,6 +31,8 @@ document.getElementById("Video").addEventListener("click", function() { generato
 document.getElementById("Audio").addEventListener("click", function() { generator("Audio"); });
 document.getElementById("tD").addEventListener("click", function() { generator("tD"); });
 document.getElementById("Code").addEventListener("click", function() { generator("Code"); });
+document.getElementById("Texte").addEventListener("click", function() { generator("Texte"); });
+
 
 // Les fonctions des boutons
 function all() {

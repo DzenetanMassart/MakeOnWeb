@@ -1,4 +1,4 @@
-//Les différents types: Image   Video   Audio   tD   Code
+//Les différents types: Image   Video   Audio   tD   Code Texte
 
 
 let softs = [
@@ -48,8 +48,14 @@ let softs = [
     {
         "type": "Image",
         "img_link": "https://online.theinpaint.com/images/header-image.png",
-        "desc": "Pour effacer certains détails sur une image (notamment un Watermark)",
+        "desc": "Pour effacer certains détails sur une image (notamment un Watermark).",
         "link": "https://online.theinpaint.com/"
+    },
+    {
+        "type": "Image",
+        "img_link": "https://fr.qr-code-generator.com/wp-content/themes/qr/new_structure/assets/media/images/logos/egoditor/logo-icon-blue.svg",
+        "desc": "Pour générer un QR code.",
+        "link": "https://fr.qr-code-generator.com/"
     },
 
     // Les logiciels de vidéo
@@ -103,6 +109,12 @@ let softs = [
         "img_link": "https://www.remove-vocals.com/static/vocal_remover.png",
         "desc": "Enlever les paroles de n'importe quel chanson. ",
         "link": "https://www.remove-vocals.com/"
+    },
+    {
+        "type": "Audio",
+        "img_link": "https://voicechanger.io/img/voice-cards/autowah.jpg",
+        "desc": "Pour mettre des effets dans vos fichiers audios. ",
+        "link": "https://voicechanger.io/"
     },
 
     // Les logiciel de 3D
@@ -168,5 +180,14 @@ let softs = [
         "img_link": "assets/img/CSS animate.png",
         "desc": "Pour générer des animations en CSS.",
         "link": "http://cssanimate.com/#=_="
+    }
+    // Les logiciels de Texte
+    ,
+
+    {
+        "type": "Texte",
+        "img_link": "https://keywordtool.io/sites/all/images/keyword-tool-logo.png",
+        "desc": "Pour générer des mots-clés à mettre dans la description de vos contenus.",
+        "link": "https://keywordtool.io/fr/"
     }
 ];
