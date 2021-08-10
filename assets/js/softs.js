@@ -83,6 +83,12 @@ let softs = [
         "desc": "Pour télécharger des vidéos provenant de YouTube en .mp3 ou .mp4.",
         "link": "https://notube.net/fr/easy-converter-video"
     },
+    {
+        "type": "Video",
+        "img_link": "https://www.amoyshare.com/asset/common/header/css/images/logo-a702b569.png",
+        "desc": "Pour télécharger des vidéos provenant de Nicovideo en .mp3 et .mp4.",
+        "link": "https://fr.amoyshare.com/niconico-video-downloader/"
+    },
 
 
     // Les logiciels pour l'audio
@@ -115,6 +121,11 @@ let softs = [
         "img_link": "https://voicechanger.io/img/voice-cards/autowah.jpg",
         "desc": "Pour mettre des effets dans vos fichiers audios. ",
         "link": "https://voicechanger.io/"
+    }, {
+        "type": "Audio",
+        "img_link": "https://www.hooktheory.com/images/logos/hooktheory-logo-2021-with-name-and-tagline-no-border-01.svg",
+        "desc": "Faîtes de la musique en ligne. C'est partiellement gratuit. ",
+        "link": "https://hookpad.hooktheory.com/"
     },
 
     // Les logiciel de 3D

@@ -1,9 +1,31 @@
 let gen = " ";
+
+/*
+|==========================================|
+|La détection du type de logiciel à montrer|
+|==========================================|
+*/
+const url_o = window.location.href;
+let url_result = url_o.substring(url_o.lastIndexOf("#") + 1);
+console.log(url_o)
+console.log(url_result);
+
+document.addEventListener("DOMContentLoaded", function() {
+    if (url_result === "Image") { generator("Image"); };
+    if (url_result === "Video") { generator("Video"); };
+    if (url_result === "Audio") { generator("Audio"); };
+    if (url_result === "3D") { generator("tD"); };
+    if (url_result === "Code") { generator("Code"); };
+    if (url_result === "Texte") { generator("Texte"); };
+});
+
+
 /*
 |===================|
 |L'affichage de base|
 |===================|
 */
+
 for (let ii = 0; ii < softs.length; ii++) {
 
     let softwares = (softs[ii]);
