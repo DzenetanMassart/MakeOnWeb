@@ -57,6 +57,18 @@ let softs = [
         "desc": "Pour générer un QR code.",
         "link": "https://fr.qr-code-generator.com/"
     },
+    {
+        "type": "Image",
+        "img_link": "https://www.qrcode-monkey.com/img/qr-code-monkey-logo-new-white.svg",
+        "desc": "Pour générer un QR code.",
+        "link": "https://www.qrcode-monkey.com/fr/"
+    },
+    {
+        "type": "Image",
+        "img_link": "https://cdn1.ftimg.com/images/ft-nib-text-80.png",
+        "desc": "Pour générer un Logo à partir d'un texte.",
+        "link": "https://flamingtext.com/"
+    },
 
     // Les logiciels de vidéo
     {
@@ -188,7 +200,7 @@ let softs = [
 
     {
         "type": "Code",
-        "img_link": "assets/img/CSS animate.png",
+        "img_link": "img/CSS animate.png",
         "desc": "Pour générer des animations en CSS.",
         "link": "http://cssanimate.com/#=_="
     }
@@ -200,5 +212,11 @@ let softs = [
         "img_link": "https://keywordtool.io/sites/all/images/keyword-tool-logo.png",
         "desc": "Pour générer des mots-clés à mettre dans la description de vos contenus.",
         "link": "https://keywordtool.io/fr/"
+    },
+    {
+        "type": "Texte",
+        "img_link": "https://www.tagsfinder.com/data/brand/logo.png",
+        "desc": "Pour générer des mots-clés à mettre dans la description de vos contenus.",
+        "link": "https://www.tagsfinder.com/fr-fr/"
     }
 ];

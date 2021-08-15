@@ -1,11 +1,112 @@
     $C1:black;
     $C2:rgb(255, 255, 255);
-    $C3:rgba(0, 162, 216, 1);
+    $C3:#29ABE2;
+    main {
+        svg {
+            margin: auto auto;
+            width: 100%;
+            margin-bottom: 20px;
+            min-height: 50vh;
+            transform-origin: center;
+            transform: scaleY(0.5)scaleX(0.5);
+            transition: transform 0.5s;
+            #Explosion {
+                transform-origin: center;
+                transform: rotate(0.5turn);
+                animation-name: spin;
+                animation-duration: 5000ms;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+                box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+            }
+            #MakeonWebsoft {
+                transform-origin: center;
+                transition: transform 0.5s;
+            }
+            #MoW {
+                transform-origin: center;
+                transition: transform 0.5s;
+            }
+            #Sphere {
+                transition: transform 0.5s;
+                transform-origin: center;
+            }
+            #Fond {
+                transition: transform 0.5s;
+                transform-origin: center;
+            }
+            #Fond_bleu {
+                transition: transform 0.5s;
+                transform-origin: center;
+            }
+            &:hover {
+                transform: scaleY(0.9)scaleX(0.9);
+                #Explosion {
+                    animation-duration: 200ms;
+                }
+                #MakeonWebsoft {
+                    transform-origin: center;
+                    transform: scaleY(0)scaleX(0);
+                }
+                #MoW {
+                    transform-origin: center;
+                    transform: scaleY(0.0)scaleX(0.0);
+                }
+                #Sphere {
+                    transform-origin: center;
+                    transform: scaleY(1.2)scaleX(1.2);
+                }
+                #Fond {
+                    transform-origin: center;
+                    transform: scaleY(0.5)scaleX(0.5);
+                }
+                #Fond_bleu {
+                    transform-origin: center;
+                    transform: scaleY(1.2)scaleX(1.2);
+                }
+            }
+        }
+        h2 {
+            text-align: center;
+            color: white;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            min-height: 35vh;
+        }
+    }
+    
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
     @mixin F1() {
         color: $C1;
         font-family: 'Kalam', cursive;
         text-shadow: $C2 1px 1px, $C2 -1px 1px, $C2 -1px -1px, $C2 1px -1px;
         font-weight: bold;
+    }
+    
+    .navbar-brand {
+        -webkit-text-stroke: 0.5px #29ABE2;
+        @supports (-webkit-text-stroke: 0.5px #29ABE2) {
+            h1 {
+                -webkit-text-stroke: 0.5px #29ABE2;
+                -webkit-text-fill-color: white;
+            }
+        }
+    }
+    
+    .logo {
+        min-width: 75px;
     }
     
     @import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
@@ -193,5 +294,11 @@
     @keyframes push {
         50% {
             transform: scale(0.8);
+        }
+    }
+    
+    @media (prefers-reduced-motion: reduce) {
+        .softos {
+            animation: none;
         }
     }
