@@ -1,3 +1,5 @@
+![MakeOnWeb Logo](https://dzenetanmassart.github.io/MakeOnWeb/assets/img/LogoMOW2021.png)
+
 # MakeOnWeb
 Une galerie spéciale autour des logiciels de production sur le Web.
 
