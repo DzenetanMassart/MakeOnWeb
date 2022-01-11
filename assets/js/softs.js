@@ -159,6 +159,12 @@ let softs = [
         "desc": "Un logiciel pour créer des modèles 3D pour Facebook.",
         "link": "https://easy3dpost.com/#=_="
     },
+    {
+        "type": "tD",
+        "img_link": "https://www.indirtik.com/wp-content/uploads/2019/07/maxresdefault-12.jpg",
+        "desc": "SculptGL est une application qui vous permet de faire de la sculpture en ligne.",
+        "link": "https://stephaneginier.com/sculptgl/"
+    },
 
     // Les logiciels de Coding
     {
