@@ -234,7 +234,7 @@
 
 </svg>
         </a>
-        <h2>Voici une sélection des logiciels de la base de donnée</h2>
+        <h2>Voici la sélection du <kbd id="jour" style="cursor: help;">jour</kbd> des logiciels de la base de donnée</h2>
         <section id="gen ">
 
         </section>
@@ -255,9 +255,17 @@
     <!--Les scripts-->
     <script src="assets/js/softs.js "></script>
     <script>
+        let ladate=new Date()
         const nbr_scr=screen.width/500;
+let da=ladate.getDate();
+let int=new Intl.DateTimeFormat("fr-FR", {hour12: false, year:"numeric", month:"long", day:"numeric", });
 
-        for (let ii = 0; ii < nbr_scr; ii++) {
+document.getElementById("jour").title = int.format(ladate);
+
+
+
+
+        for (let ii = da; ii < nbr_scr+da; ii++) {
             let softwares = (softs[ii]);
             gen = '<a class="softos " href=" ' + softwares.link + ' ">';
             gen += '<div class="card ">';
