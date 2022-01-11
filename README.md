@@ -10,7 +10,7 @@ Lorsque j'ai créé TipsAndTricks, j'avais pris un malin plaisir à répertorier
 ## Le technique
 
 J'utilise une base de donnée local qui prend forme d'une variable répertoriant l'ensemble de mes données dans un fichier javascript.
-```
+```javascript
 let softs=[{
     "type":"Image/Video/Audio/tD/Code",
     "img_link": "sample.png",
