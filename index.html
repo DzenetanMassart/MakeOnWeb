@@ -255,7 +255,9 @@
     <!--Les scripts-->
     <script src="assets/js/softs.js "></script>
     <script>
-        for (let ii = 0; ii < 6; ii++) {
+        const nbr_scr=screen.width/500;
+
+        for (let ii = 0; ii < nbr_scr; ii++) {
             let softwares = (softs[ii]);
             gen = '<a class="softos " href=" ' + softwares.link + ' ">';
             gen += '<div class="card ">';
@@ -268,6 +270,8 @@
 
             document.getElementById("gen ").innerHTML += gen;
         }
+
+
     </script>
 </body>
 
