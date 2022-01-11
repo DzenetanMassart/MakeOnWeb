@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
 for (let ii = 0; ii < softs.length; ii++) {
 
     let softwares = (softs[ii]);
-    gen += '<a class="softos" href="' + softwares.link + '"><div class="card">';
+    gen += '<a class="softos" target="_blank" href="' + softwares.link + '"><div class="card">';
     gen += '<img src="' + softwares.img_link + '" class="card-img-top"';
     gen += ' alt="' + softwares.desc + '">';
     gen += '<div class="card-body">';
@@ -64,7 +64,7 @@ function all() {
     for (let ii = 0; ii < softs.length; ii++) {
 
         let softwares = (softs[ii]);
-        gen += '<a class="softos" href="' + softwares.link + '"><div class="card">';
+        gen += '<a class="softos" target="_blank" href="' + softwares.link + '"><div class="card">';
         gen += '<img src="' + softwares.img_link + '" class="card-img-top"';
         gen += ' alt="' + softwares.desc + '">';
         gen += '<div class="card-body">';
@@ -90,7 +90,7 @@ function generator(nom) {
 
         let softwares = (softs[ii]);
         if (softwares.type == nom) {
-            gen += '<a class="softos" href="' + softwares.link + '"><div class="card">';
+            gen += '<a class="softos" target="_blank" href="' + softwares.link + '"><div class="card">';
             gen += '<img src="' + softwares.img_link + '" class="card-img-top"';
             gen += ' alt="' + softwares.desc + '">';
             gen += '<div class="card-body">';
