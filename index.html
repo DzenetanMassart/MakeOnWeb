@@ -267,7 +267,7 @@ document.getElementById("jour").title = int.format(ladate);
 
         for (let ii = da; ii < nbr_scr+da; ii++) {
             let softwares = (softs[ii]);
-            gen = '<a class="softos " href=" ' + softwares.link + ' ">';
+            gen = '<a class="softos " target="_blank" href=" ' + softwares.link + ' ">';
             gen += '<div class="card ">';
             gen += '<img src=" ' + softwares.img_link + ' " class="card-img-top " alt=" ' + softwares.desc + ' ">';
             gen += '<div class="card-body ">';
