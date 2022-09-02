@@ -248,13 +248,6 @@ let softs = [
         "img_link": "https://pbs.twimg.com/profile_images/455676678652452864/JYOZ85z-_400x400.png",
         "desc": "Générateur graphique de palette de couleur avec exportation HTML ,CSS , LESS , SASS , XML et text.",
         "link": "https://paletton.com/#uid=15a0u0kMzLdWw3KUk9haaU48lXd"
-    },
-
-    {
-        "type": "Code",
-        "img_link": "img/CSS animate.png",
-        "desc": "Pour générer des animations en CSS.",
-        "link": "http://cssanimate.com/#=_="
     }
     // Les logiciels de Texte
     ,
