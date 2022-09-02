@@ -75,6 +75,28 @@ let softs = [
         "desc": "QRCode.js est une librairie Javascript pour générer des QRcode.",
         "link": "https://davidshimjs.github.io/qrcodejs/"
     },
+    {
+        "type": "Image",
+        "img_link": "https://toonme-com-cdn.ws.pho.to/apple-touch-icon.png",
+        "desc": "Pour donner un style cartoonesque à vos selfies.",
+        "link": "https://toonme.com/labs/"
+    },
+    {
+        "type": "Image",
+        "img_link": "https://www.posemaniacs.com/favicon.ico",
+        "desc": "Pour trouver et adapter une pose pour le dessin en 3D",
+        "link": "https://www.posemaniacs.com/"
+    }, {
+        "type": "Image",
+        "img_link": "https://static1.textcraft.net/img/textcraft4f.png",
+        "desc": "Pour générer une parodie d'un logo pré-existant.",
+        "link": "https://textcraft.net/"
+    }, {
+        "type": "Image",
+        "img_link": "https://www.base64-image.de/build/img/base64-image-logo-3eb23a9eef.png",
+        "desc": "Pour générer le code sous base 64 d'une image.",
+        "link": "https://www.base64-image.de/"
+    },
 
     // Les logiciels de vidéo
     {
@@ -106,6 +128,18 @@ let softs = [
         "img_link": "https://www.amoyshare.com/asset/common/header/css/images/logo-a702b569.png",
         "desc": "Pour télécharger des vidéos provenant de Nicovideo en .mp3 et .mp4.",
         "link": "https://fr.amoyshare.com/niconico-video-downloader/"
+    },
+    {
+        "type": "Video",
+        "img_link": "https://downloadtwittervideo-xvbumqfixmhzxo.stackpathdns.com/imgs/how-to-twitter.png",
+        "desc": "Pour télécharger des vidéos provenant de Twitter en .mp4.",
+        "link": "https://www.downloadtwittervideo.com/fr/"
+    },
+    {
+        "type": "Video",
+        "img_link": "https://cloudconvert.com/images/logo_flat_110_borderless.png",
+        "desc": "Pour convertir des vidéos en .webm en .mp4.",
+        "link": "https://cloudconvert.com/webm-to-mp4"
     },
 
 
@@ -139,6 +173,18 @@ let softs = [
         "desc": "Faîtes de la musique en ligne. C'est partiellement gratuit. ",
         "link": "https://hookpad.hooktheory.com/"
     },
+    {
+        "type": "Audio",
+        "img_link": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAANSURBVBhXY2BgYGAAAAAFAAGKM+MAAAAAAElFTkSuQmCC",
+        "desc": "Faîtes de la musique en ligne à partir de mèmes internet ",
+        "link": "https://thirtydollar.website/"
+    },
+    {
+        "type": "Audio",
+        "img_link": "https://www.klickaud.co/wp-content/themes/KA-Wordpress/images/favicon.png",
+        "desc": "Pour télécharger des musiques de Soundcloud gratuitement.",
+        "link": "https://www.klickaud.co/"
+    },
 
     // Les logiciel de 3D
     {
@@ -164,6 +210,12 @@ let softs = [
         "img_link": "https://www.indirtik.com/wp-content/uploads/2019/07/maxresdefault-12.jpg",
         "desc": "SculptGL est une application qui vous permet de faire de la sculpture en ligne.",
         "link": "https://stephaneginier.com/sculptgl/"
+    },
+    {
+        "type": "tD",
+        "img_link": "https://monstermash.zone/imgs/loading.jpg",
+        "desc": "Pour faire de la 3D animée expérimentale à partir d'image.",
+        "link": "https://monstermash.zone/"
     },
 
     // Les logiciels de Coding
@@ -209,7 +261,7 @@ let softs = [
 
     {
         "type": "Texte",
-        "img_link": "https://keywordtool.io/sites/all/images/keyword-tool-logo.png",
+        "img_link": "https://keywordtool.io/images/keyword-tool-logo.png",
         "desc": "Pour générer des mots-clés à mettre dans la description de vos contenus.",
         "link": "https://keywordtool.io/fr/"
     },
@@ -218,5 +270,12 @@ let softs = [
         "img_link": "https://www.tagsfinder.com/data/brand/logo.png",
         "desc": "Pour générer des mots-clés à mettre dans la description de vos contenus.",
         "link": "https://www.tagsfinder.com/fr-fr/"
-    }
+    },
+
+    {
+        "type": "Texte",
+        "img_link": "https://fontjoy.com/favicon32.gif",
+        "desc": "Pour générer votre propre police d'écriture à partir d'autres polices d'écriture",
+        "link": "https://fontjoy.com/"
+    },
 ];
