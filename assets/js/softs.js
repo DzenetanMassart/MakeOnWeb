@@ -96,8 +96,24 @@ let softs = [
         "img_link": "https://www.base64-image.de/build/img/base64-image-logo-3eb23a9eef.png",
         "desc": "Pour générer le code sous base 64 d'une image.",
         "link": "https://www.base64-image.de/"
+    }, {
+        "type": "Image",
+        "img_link": "https://cdn.pixelbin.io/v2/dummy-cloudname/original/watermarkremover_asset/logo/Watermarkremover_light_2x.png?f_auto=true",
+        "desc": "Pour enlever les filigranes/watermark d'une image.",
+        "link": "https://www.watermarkremover.io/fr/upload"
     },
-
+    {
+        "type": "Image",
+        "img_link": "https://cdn.pixelbin.io/v2/dummy-cloudname/original/upscalemedia_assets/logo/Upscalemedia_light_2x.png?f_auto=true",
+        "desc": "Pour Améliorer et rehausser la taille d'une image.",
+        "link": "https://www.upscale.media/fr"
+    },
+    {
+        "type": "Image",
+        "img_link": "https://cdn.pixelbin.io/v2/dummy-cloudname/original/erasebg_assets/logo/Erasebg_light_2x.png?f_auto=true",
+        "desc": "Pour enlever un fond d'une image.",
+        "link": "https://www.erase.bg/upload"
+    },
     // Les logiciels de vidéo
     {
         "type": "Video",
@@ -184,6 +200,12 @@ let softs = [
         "img_link": "https://www.klickaud.co/wp-content/themes/KA-Wordpress/images/favicon.png",
         "desc": "Pour télécharger des musiques de Soundcloud gratuitement.",
         "link": "https://www.klickaud.co/"
+    },
+    {
+        "type": "Audio",
+        "img_link": "https://eproves.com/images/icons/logotype.webp",
+        "desc": "Pour vérifier si une musique a un copyright.",
+        "link": "https://eproves.com/"
     },
 
     // Les logiciel de 3D
