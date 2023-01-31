@@ -114,6 +114,37 @@ let softs = [
         "desc": "Pour enlever un fond d'une image.",
         "link": "https://www.erase.bg/upload"
     },
+        {
+        "type": "Image",
+        "img_link": "https://imagecolorpicker.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-55x55_b.eee47b98.png&w=64&q=75",
+        "desc": "Pour connaître les couleurs, le nuancier, d'une image.",
+        "link": "https://imagecolorpicker.com/#"
+    },
+            {
+        "type": "Image",
+        "img_link": "http://paletton.com/img/paletton-preview-20140414.png",
+        "desc": "Pour générer une palette de couleur, un nuancier.",
+        "link": "http://paletton.com/"
+    },
+                {
+        "type": "Image",
+        "img_link": "https://paint.sumo.app/icon.png",
+        "desc": "Pour créer des images autant avec des pinceaux qu'avec une description interprétée par une IA.",
+        "link": "https://paint.sumo.app/?lang=fr"
+    },
+                    {
+        "type": "Image",
+        "img_link": "https://static.canva.com/web/images/12487a1e0770d29351bd4ce4f87ec8fe.svg",
+        "desc": "Pour créer toutes sortes de contenus visuels dont majoritairement des images.",
+        "link": "https://www.canva.com/"
+    },
+                    {
+        "type": "Image",
+        "img_link": "https://d5nunyagcicgy.cloudfront.net/p/assets/m/drawings/clipping-magic-favicon-16_42966e5248c36402c175d31fe969eda6.png",
+        "desc": "Pour supprimer le fond d'une image avec une sélection intelligente éditable.",
+        "link": "https://clippingmagic.com/"
+    },
+
     // Les logiciels de vidéo
     {
         "type": "Video",
@@ -207,6 +238,12 @@ let softs = [
         "desc": "Pour vérifier si une musique a un copyright.",
         "link": "https://eproves.com/"
     },
+        {
+        "type": "Audio",
+        "img_link": "https://vocalremover.org/img/remover/player_en.png",
+        "desc": "Pour séparer la voix d'une chanson de son instrumental.",
+        "link": "https://vocalremover.org/"
+    },
 
     // Les logiciel de 3D
     {
@@ -293,4 +330,5 @@ let softs = [
         "desc": "Pour générer votre propre police d'écriture à partir d'autres polices d'écriture",
         "link": "https://fontjoy.com/"
     },
+    
 ];
