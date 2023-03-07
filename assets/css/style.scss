@@ -134,39 +134,53 @@
                     border: 1px solid $C1;
                     padding: 5px;
                     margin-bottom: 10px;
-                    width: 18rem;
-                    height: 300px;
+                    width: 20rem;
+                    height: 400px;
                     margin: 10px;
                     transform: scale(1.0);
                     transition: all 0.9s;
                     background-color: #444444;
                     .card-img-top {
                         filter: drop-shadow(0 0 1px $C1);
-                        height: 12vh;
+                        margin:auto auto;
                         object-fit: contain;
+                        display: flex;
+                        width: 10rem;
                     }
                     .card-body {
-                        height: 100px;
+                        height: 200px;
                         .card-text {
                             display: flex;
                             flex-direction: column;
                             justify-content: center;
-                            bottom: 0;
-                            left: 0;
                             text-align: center;
-                            position: absolute;
                             z-index: 2;
                             color: $C2;
-                            width: 100%;
+                            width: 20rem;
                             padding-left: 10%;
                             padding-right: 10%;
                             padding-bottom: 5%;
-                        }
                     }
-                }
+                                            .card-bottom {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            text-align: center;
+                            position: absolute;
+                            bottom:0;
+                            z-index: 2;
+                            color: $C2;
+                            width: 20rem;
+                            padding-left: 10%;
+                            padding-right: 10%;
+                            padding-bottom: 5%;
+                            font-size: 10px;
+                    }
+                }}
                 &:hover {
                     transform: scale(0.99);
                     background-color: rgb(214, 214, 214);
+                    text-decoration: none;
                 }
             }
         }
@@ -265,6 +279,14 @@
                         color: $C2;
                         padding: 2%;
                         width: 75%;
+                    }
+                        .card-bottom {
+position:absolute;
+bottom:0;
+right:5px;
+color:$C2;
+                            text-align: right;
+                            font-size: 10px;
                     }
                 }
             }

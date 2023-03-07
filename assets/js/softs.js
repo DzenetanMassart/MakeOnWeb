@@ -144,6 +144,12 @@ let softs = [
         "desc": "Pour supprimer le fond d'une image avec une sélection intelligente éditable.",
         "link": "https://clippingmagic.com/"
     },
+                        {
+        "type": "Image",
+        "img_link": "https://excalidraw.com/apple-touch-icon.png",
+        "desc": "Pour utiliser un tableau blanc virtuelle en groupe, par session.",
+        "link": "https://excalidraw.com/"
+    },
 
     // Les logiciels de vidéo
     {

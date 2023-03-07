@@ -34,6 +34,7 @@ for (let ii = 0; ii < softs.length; ii++) {
     gen += ' alt="' + softwares.desc + '">';
     gen += '<div class="card-body">';
     gen += '<p class="card-text">' + softwares.desc + '</p>';
+    gen += '<p class="card-bottom">' + softwares.link + '</p>';
     gen += '</div></div></a>';
 
     document.getElementById("gen").innerHTML = gen;
@@ -69,6 +70,7 @@ function all() {
         gen += ' alt="' + softwares.desc + '">';
         gen += '<div class="card-body">';
         gen += '<p class="card-text">' + softwares.desc + '</p>';
+        gen += '<p class="card-bottom">' + softwares.link + '</p>';
         gen += '</div></div></a>';
 
         document.getElementById("gen").innerHTML = gen;
@@ -95,6 +97,7 @@ function generator(nom) {
             gen += ' alt="' + softwares.desc + '">';
             gen += '<div class="card-body">';
             gen += '<p class="card-text">' + softwares.desc + '</p>';
+            gen += '<p class="card-bottom">' + softwares.link + '</p>';
             gen += '</div></div></a>';
         }
     }
