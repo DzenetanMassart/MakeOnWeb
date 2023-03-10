@@ -150,6 +150,12 @@ let softs = [
         "desc": "Pour utiliser un tableau blanc virtuelle en groupe, par session.",
         "link": "https://excalidraw.com/"
     },
+                            {
+        "type": "Image",
+        "img_link": "https://qr.io/logo/logo-title.png",
+        "desc": "Pour générer des QRcode personnalisés",
+        "link": "https://qr.io/"
+    },
 
     // Les logiciels de vidéo
     {
