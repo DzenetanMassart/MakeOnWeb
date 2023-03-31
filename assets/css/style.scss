@@ -1,6 +1,13 @@
     $C1:black;
     $C2:rgb(255, 255, 255);
     $C3:#29ABE2;
+
+*{
+    text-decoration: none !important;
+}
+
+
+
     main {
         svg {
             margin: auto auto;
@@ -121,7 +128,7 @@
         }
         section {
             margin-bottom: 20px;
-            min-height: 75vh;
+            min-height: 40vh;
             div {
                 display: flex;
                 flex-wrap: wrap;
@@ -160,6 +167,7 @@
                             padding-left: 10%;
                             padding-right: 10%;
                             padding-bottom: 5%;
+
                     }
                                             .card-bottom {
                             display: flex;

@@ -6,12 +6,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!--Bootstrap ON-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<!--Bootstrap OFF-->
     <meta name="full-screen" content="yes">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
     <title>Make on Websoft</title>
     <link rel="icon" href="assets/img/logoMOW.png">
     <meta name="description" content="Répertoire de logiciel en ligne" />
@@ -22,8 +22,13 @@
     <meta name="application-name" content="MakeOnWeb">
     <meta name="msapplication-TileColor" content="#1b1b1b">
     <meta name="msapplication-TileImage" content="assets/img/logoMOW.png">
-
-
+<meta name="keywords" content="logiciels,créations,online,dzenetan,massart,make on web,3D,audio,image,code,texte,vidéo">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="French">
+<meta name="author" content="Dzénetan Massart">
+<meta name="title" content="Make on Websoft">
+<meta name="description" content="Répertoire de logiciel en ligne">
     <!--Début gestion de l'embed pour Discord-->
     <meta content="Make On Web" property="og:title" />
     <meta content="Répertoire de logiciel en ligne" property="og:description" />
@@ -31,44 +36,46 @@
     <meta content="assets/img/logoMOW.png" property="og:image" />
     <meta content="#2b2b2b" data-react-helmet="true" name="theme-color" />
     <!--Fin  gestion de l'embed pour Discord-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
 
     <meta name="description " content="Répertoire de trucs et astuces à usage des devellopeurs web ! " />
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-dark ">
-            <span class="navbar-brand ">Make On Websoft</span>
-            <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarText " aria-controls="navbarText " aria-expanded="true " aria-label="Toggle navigation ">
-            <span class="navbar-toggler-icon "></span>
-          </button>
-            <div class="collapse navbar-collapse " id="navbarText ">
-                <ul class="navbar-nav mr-auto ">
-                    <li id="Tout_ " class="nav-item active ">
-                        <a class="nav-link " id="all " href="assets/MoW.html ">Tout</span></a>
+        <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-dark">
+            <span class="navbar-brand ">Make on Websoft</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto">
+                    <li id="Tout_" class="nav-item active">
+                        <a class="nav-link" id="all" href="assets\MoW.html#">Tout</span></a>
                     </li>
-                    <li id="image_ " class="nav-item ">
-                        <a class="nav-link " id="Image " href="assets/MoW.html#Image ">Image</a>
+                    <li id="image_" class="nav-item">
+                        <a class="nav-link" id="Image" href="assets\MoW.html#Image">Image</a>
                     </li>
-                    <li id="video_ " class="nav-item ">
-                        <a class="nav-link " id="Video " href="assets/MoW.html#Video ">Video</a>
+                    <li id="video_" class="nav-item">
+                        <a class="nav-link" id="Video" href="assets\MoW.html#Video">Video</a>
                     </li>
-                    <li id="audio_ " class="nav-item ">
-                        <a class="nav-link " id="Audio " href="assets/MoW.html#Audio ">Audio</a>
+                    <li id="audio_" class="nav-item">
+                        <a class="nav-link" id="Audio" href="assets\MoW.html#Audio">Audio</a>
                     </li>
-                    <li id="td_ " class="nav-item ">
-                        <a class="nav-link " id="tD " href="assets/MoW.html#3D ">3D</a>
+                    <li id="td_" class="nav-item">
+                        <a class="nav-link" id="tD" href="assets\MoW.html#3D">3D</a>
                     </li>
-                    <li id="code_ " class="nav-item ">
-                        <a class="nav-link " id="Code " href="assets/MoW.html#Code ">Code</a>
+                    <li id="code_" class="nav-item">
+                        <a class="nav-link" id="Code" href="assets\MoW.html#Code">Code</a>
                     </li>
-                    <li id="texte_ " class="nav-item ">
-                        <a class="nav-link " id="Texte " href="assets/MoW.html#Texte ">Texte</a>
+                    <li id="texte_" class="nav-item">
+                        <a class="nav-link" id="Texte" href="assets\MoW.html#Texte">Texte</a>
                     </li>
                 </ul>
-                <span class="navbar-text text-right w-100 introduce ">
-                Trouvez un logiciel en ligne qui répond à votre besoin. 
-              </span>
+                <span class="d-flex navbar-text introduce">
+                    Trouvez un logiciel en ligne qui répond à votre besoin.
+                </span>
             </div>
         </nav>
     </header>
@@ -241,11 +248,10 @@
     </main>
     <footer>
         <h1>Bienvenue sur <span class="mow ">Make On Websoft</span> </h1>
-        <p><span class="mow "> Make On Websoft</span> est un site web regroupant des logiciels en ligne servant à la création de contenus tel que des <a href="assets/MoW.html#Image ">images</a>, <a href="assets/MoW.html#Video ">des vidéos</a> ou encore de
-            l'
-            <a href="assets/MoW.html#Audio ">audio</a>.</p>
-        <p>Certains de ces logiciels sont gratuis, d'autres partiellement ( certaines fonctionnalités sont payantes ) mais tous sont accessibles sur navigateurs web et sur la plupart des plateformes tel que le PC, la tablette ou encore le smartphone.</p>
-        <p>Site web créé par <a href="https://dzenetanmassart.github.io/ ">MASSART Dzénetan</a> | Cadriciel esthétique utilisé : <a href="https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp ">Bootstrap 4</a> | 2019-2023</p>
+        <p><span class="mow "> Make On Websoft</span> (MoW) est un site web regroupant des logiciels en ligne servant à la création de contenus tel que des <a href="assets/MoW.html#3D">modèles 3D</a>, <a href="assets/MoW.html#Texte">textes</a>,  <a href="assets/MoW.html#Image">images</a>, <a href="assets/MoW.html#Video">des vidéos</a> ou encore de
+            l'<a href="assets/MoW.html#Audio">audio</a> et du <a href="assets/MoW.html#Code">code</a>.</p>
+        <p>Certains de ces logiciels sont gratuits, d'autres partiellement ( certaines fonctionnalités sont payantes ) mais tous sont accessibles sur navigateurs web et sur la plupart des plateformes tel que le PC, la tablette ou encore le smartphone.</p>
+        <p>Site web créé par <a href="https://dzenetanmassart.github.io/ ">MASSART Dzénetan</a> | Cadriciel esthétique utilisé : <a href="https://www.w3schools.com/bootstrap5/bootstrap_get_started.php">Bootstrap 5</a> | 2019-2023</p>
 
     </footer>
 

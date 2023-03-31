@@ -102,4 +102,10 @@ function generator(nom) {
         }
     }
     document.getElementById("gen").innerHTML = gen;
+
+    if (nom == "Code") {
+        document.getElementById("pub").innerHTML = `<a type="button" class="btn text-white  mt-4 p-5 bg-danger  btn-block text-white rounded" href="https://dzenetanmassart.github.io/Tricks-and-Tips/" target="_blank"><h1>Rechercher sur Tricks&Tips</h1> <p>Vous rechercher de la documentation et des générateurs de code ? Je vous recommande fortement l'emploi de Tricks&Tips.</p><img src="https://dzenetanmassart.github.io/Tricks-and-Tips/assets/pics/T_T.png" alt="logo de Tricks&Tips"/></div></a>`;
+    } else {
+        document.getElementById("pub").innerHTML = ``;
+    }
 }

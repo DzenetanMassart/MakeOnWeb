@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Kalam&display=swap");
+* {
+  text-decoration: none !important;
+}
+
 main svg {
   margin: auto auto;
   width: 100%;
@@ -11,14 +15,10 @@ main svg {
 main svg #Explosion {
   transform-origin: center;
   transform: rotate(0.5turn);
-  -webkit-animation-name: spin;
-          animation-name: spin;
-  -webkit-animation-duration: 5000ms;
-          animation-duration: 5000ms;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
   box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 main svg #MakeonWebsoft {
@@ -45,8 +45,7 @@ main svg:hover {
   transform: scaleY(0.9) scaleX(0.9);
 }
 main svg:hover #Explosion {
-  -webkit-animation-duration: 200ms;
-          animation-duration: 200ms;
+  animation-duration: 200ms;
 }
 main svg:hover #MakeonWebsoft {
   transform-origin: center;
@@ -78,15 +77,6 @@ main section {
   justify-content: center;
   align-content: center;
   min-height: 35vh;
-}
-
-@-webkit-keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 @keyframes spin {
@@ -121,7 +111,7 @@ main section {
   }
   section {
     margin-bottom: 20px;
-    min-height: 75vh;
+    min-height: 40vh;
   }
   section div {
     display: flex;
@@ -187,7 +177,6 @@ main section {
 }
 @media only html and (orientation: landscape) and (min-height: 100%) {
   footer {
-    position: -webkit-sticky;
     position: sticky;
     bottom: 0;
     width: 100vw;
@@ -303,14 +292,7 @@ body {
   }
 }
 .softos {
-  -webkit-animation: push 0.3s linear 1;
-          animation: push 0.3s linear 1;
-}
-
-@-webkit-keyframes push {
-  50% {
-    transform: scale(0.8);
-  }
+  animation: push 0.3s linear 1;
 }
 
 @keyframes push {
@@ -320,7 +302,6 @@ body {
 }
 @media (prefers-reduced-motion: reduce) {
   .softos {
-    -webkit-animation: none;
-            animation: none;
+    animation: none;
   }
 }/*# sourceMappingURL=style.css.map */

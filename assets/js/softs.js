@@ -156,6 +156,18 @@ let softs = [
         "desc": "Pour générer des QRcode personnalisés",
         "link": "https://qr.io/"
     },
+    {
+        "type": "Image",
+        "img_link": "https://ww1.freelogovectors.net/wp-content/uploads/2021/12/padlet-logo-freelogovectors.net_.png",
+        "desc": "Pour générer des présentations visuelles",
+        "link": "https://padlet.com/"
+    },
+       {
+        "type": "Image",
+        "img_link": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+        "desc": "Pour générer des avatars personnalisés",
+        "link": "https://ladigitale.dev/digiface/#/"
+    },
 
     // Les logiciels de vidéo
     {
@@ -190,7 +202,7 @@ let softs = [
     },
     {
         "type": "Video",
-        "img_link": "https://downloadtwittervideo-xvbumqfixmhzxo.stackpathdns.com/imgs/how-to-twitter.png",
+        "img_link": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
         "desc": "Pour télécharger des vidéos provenant de Twitter en .mp4.",
         "link": "https://www.downloadtwittervideo.com/fr/"
     },
@@ -304,7 +316,7 @@ let softs = [
     },
     {
         "type": "Code",
-        "img_link": "https://seeklogo.com/images/C/code-sandbox-logo-0746E97CA1-seeklogo.com.png",
+        "img_link": "https://uploads.codesandbox.io/uploads/avatars/FdTY-CodeSandbox+Square+Logo.png",
         "desc": "Un logiciel d'édition d'application web très complet permettant de faire autant du Vanilla que du React ou autres types de API...Un genre de Visual Studio Code en ligne.",
         "link": "https://codesandbox.io/s/vanilla"
     },
@@ -336,5 +348,10 @@ let softs = [
         "desc": "Pour générer votre propre police d'écriture à partir d'autres polices d'écriture",
         "link": "https://fontjoy.com/"
     },
-    
+        {
+        "type": "Texte",
+        "img_link": "https://chat.openai.com/apple-touch-icon.png",
+        "desc": "Pour générer des réponses à vos questions (nécessite une inscription)",
+        "link": "https://chat.openai.com/auth/login"
+    },
 ];
