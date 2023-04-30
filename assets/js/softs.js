@@ -168,6 +168,12 @@ let softs = [
         "desc": "Pour générer des avatars personnalisés",
         "link": "https://ladigitale.dev/digiface/#/"
     },
+    {
+        "type": "Image",
+        "img_link": "https://editor.method.ac/images/favicon.svg",
+        "desc": "Pour modifier gratuitement des SVGs",
+        "link": "https://editor.method.ac/"
+    },
 
     // Les logiciels de vidéo
     {
@@ -218,7 +224,7 @@ let softs = [
     {
         "type": "Audio",
         "img_link": "https://www.ispeech.org/img/logos/ispeech.png",
-        "desc": "Un text-to-speech assez complet et facile à utiliser avec Audacity.",
+        "desc": "Un text-to-speech assez complet et facile à utiliser avec Audacity",
         "link": "https://www.ispeech.org/text.to.speech"
     },
     {
@@ -230,37 +236,43 @@ let softs = [
     {
         "type": "Audio",
         "img_link": "https://voicechanger.io/img/voice-cards/autowah.jpg",
-        "desc": "Pour mettre des effets dans vos fichiers audios. ",
+        "desc": "Pour mettre des effets dans vos fichiers audios ",
         "link": "https://voicechanger.io/"
     }, {
         "type": "Audio",
         "img_link": "https://www.hooktheory.com/images/logos/hooktheory-logo-2021-with-name-and-tagline-no-border-01.svg",
-        "desc": "Faîtes de la musique en ligne. C'est partiellement gratuit. ",
+        "desc": "Faîtes de la musique en ligne. C'est partiellement gratuit",
         "link": "https://hookpad.hooktheory.com/"
     },
     {
         "type": "Audio",
         "img_link": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAANSURBVBhXY2BgYGAAAAAFAAGKM+MAAAAAAElFTkSuQmCC",
-        "desc": "Faîtes de la musique en ligne à partir de mèmes internet ",
+        "desc": "Faîtes de la musique en ligne à partir de mèmes internet",
         "link": "https://thirtydollar.website/"
     },
     {
         "type": "Audio",
         "img_link": "https://www.klickaud.co/wp-content/themes/KA-Wordpress/images/favicon.png",
-        "desc": "Pour télécharger des musiques de Soundcloud gratuitement.",
+        "desc": "Pour télécharger des musiques de Soundcloud gratuitement",
         "link": "https://www.klickaud.co/"
     },
     {
         "type": "Audio",
         "img_link": "https://eproves.com/images/icons/logotype.webp",
-        "desc": "Pour vérifier si une musique a un copyright.",
+        "desc": "Pour vérifier si une musique a un copyright",
         "link": "https://eproves.com/"
     },
         {
         "type": "Audio",
         "img_link": "https://vocalremover.org/img/remover/player_en.png",
-        "desc": "Pour séparer la voix d'une chanson de son instrumental.",
+        "desc": "Pour séparer la voix d'une chanson de son instrumental",
         "link": "https://vocalremover.org/"
+    },
+    {
+        "type": "Audio",
+        "img_link": "https://onlinesequencer.net/resources/icon.png",
+        "desc": "Pour composer des musiques avec une vingtaine d'instruments",
+        "link": "https://onlinesequencer.net/"
     },
 
     // Les logiciel de 3D
@@ -326,13 +338,13 @@ let softs = [
     {
         "type": "Texte",
         "img_link": "data:image/png;base64,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",
-        "desc": "Pour générer des mots-clés à mettre dans la description de vos contenus.",
+        "desc": "Pour générer des mots-clés à mettre dans la description de vos contenus",
         "link": "https://keywordtool.io/fr/"
     },
     {
         "type": "Texte",
         "img_link": "https://www.tagsfinder.com/data/brand/logo.png",
-        "desc": "Pour générer des mots-clés à mettre dans la description de vos contenus.",
+        "desc": "Pour générer des mots-clés à mettre dans la description de vos contenus",
         "link": "https://www.tagsfinder.com/fr-fr/"
     },
 
@@ -347,5 +359,17 @@ let softs = [
         "img_link": "https://chat.openai.com/apple-touch-icon.png",
         "desc": "Pour générer des réponses à vos questions (nécessite une inscription)",
         "link": "https://chat.openai.com/auth/login"
+    },
+    {
+        "type": "Texte",
+        "img_link": "https://static.deepl.com/img/favicon/favicon_96.png",
+        "desc": "Pour traduire des textes provenant de documents",
+        "link": "https://www.deepl.com/translator"
+    },
+    {
+        "type": "Texte",
+        "img_link": "https://tools.picsart.com/favicon32.svg",
+        "desc": "Pour changer la mise en forme de quelques mots pour donner de la fantaisie.",
+        "link": "https://tools.picsart.com/text/font-generator/"
     },
 ];
