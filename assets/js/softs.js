@@ -29,6 +29,12 @@ let softs = [
     },
     {
         "type": "Image",
+        "img_link": "https://dt2sdf0db8zob.cloudfront.net/wp-content/themes/websiteplanet/img/favicons/favicon-96x96.png?v=1",
+        "desc": "Compressez vos fichiers PNG/JPG jusqu'à 80% et gardez la transparence totale.",
+        "link": "https://www.websiteplanet.com/fr/webtools/imagecompressor/"
+    },
+    {
+        "type": "Image",
         "img_link": "https://www.iloveimg.com/img/iloveimg.svg",
         "desc": "Pour redimensionner plusieurs images à la fois.",
         "link": "https://www.iloveimg.com/fr/redimensionner-image"
@@ -196,12 +202,6 @@ let softs = [
     },
     {
         "type": "Video",
-        "img_link": "https://cdn.notube.net/images/general/logo.webp",
-        "desc": "Pour télécharger des vidéos provenant de YouTube en .mp3 ou .mp4.",
-        "link": "https://notube.net/fr/easy-converter-video"
-    },
-    {
-        "type": "Video",
         "img_link": "https://www.amoyshare.com/asset/common/header/css/images/logo-a702b569.png",
         "desc": "Pour télécharger des vidéos provenant de Nicovideo en .mp3 et .mp4.",
         "link": "https://fr.amoyshare.com/niconico-video-downloader/"
@@ -217,6 +217,18 @@ let softs = [
         "img_link": "https://cloudconvert.com/images/logo_flat_110_borderless.png",
         "desc": "Pour convertir des vidéos en .webm en .mp4.",
         "link": "https://cloudconvert.com/webm-to-mp4"
+    },
+    {
+        "type": "Video",
+        "img_link": "https://filmot.com/favicon-192.png",
+        "desc": "Pour retrouver une vidéo sur YouTube à partir des sous-titres",
+        "link": "https://tools.picsart.com/text/font-generator/"
+    },
+    {
+        "type": "Video",
+        "img_link": "https://online-video-cutter.com/static/i/v3/favicon.svg",
+        "desc": "Montage-vidéo rapide avec TTS",
+        "link": "https://online-video-cutter.com/fr/video-editor"
     },
 
 
@@ -273,6 +285,18 @@ let softs = [
         "img_link": "https://onlinesequencer.net/resources/icon.png",
         "desc": "Pour composer des musiques avec une vingtaine d'instruments",
         "link": "https://onlinesequencer.net/"
+    },
+    {
+        "type": "Audio",
+        "img_link": "https://voice-recorder-online.com/img/logo-red.png",
+        "desc": "Enregistreur vocal",
+        "link": "https://voice-recorder-online.com/fr/"
+    },
+    {
+        "type": "Audio",
+        "img_link": "https://s.lalal.ai/icons/apple/apple-touch-icon-120x120.png",
+        "desc": "Écouter (pour télécharger,il faut payer) les différents composants d'une musique téléchargée",
+        "link": "https://www.lalal.ai/"
     },
 
     // Les logiciel de 3D
@@ -372,4 +396,5 @@ let softs = [
         "desc": "Pour changer la mise en forme de quelques mots pour donner de la fantaisie.",
         "link": "https://tools.picsart.com/text/font-generator/"
     },
+
 ];
