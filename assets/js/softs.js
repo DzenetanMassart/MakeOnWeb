@@ -170,7 +170,7 @@ let softs = [
     },
        {
         "type": "Image",
-        "img_link": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+        "img_link": "https://ladigitale.dev/digiface/static/img/favicon.png",
         "desc": "Pour générer des avatars personnalisés",
         "link": "https://ladigitale.dev/digiface/#/"
     },
@@ -208,7 +208,7 @@ let softs = [
     },
     {
         "type": "Video",
-        "img_link": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+        "img_link": "https://downloadtwittervideo.b-cdn.net/imgs/favicon.ico",
         "desc": "Pour télécharger des vidéos provenant de Twitter en .mp4.",
         "link": "https://www.downloadtwittervideo.com/fr/"
     },
